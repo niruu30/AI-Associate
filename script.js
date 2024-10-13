@@ -538,4 +538,125 @@ const quizData = [
         ],
         answer: "B"
     },
+    {
+        id: "q50",
+        isMultiple: false,
+        question: "What is a key characteristic of machine learning in the context of AI capabilities?",
+        options: [
+            { letter: "A", text: "Uses algorithms to learn from data and make decisions" },
+            { letter: "B", text: "Relies on preprogrammed rules to make decisions" },
+            { letter: "C", text: "Can perfectly mimic human intelligence and decision-making" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q51",
+        isMultiple: false,
+        question: "Cloud Kicks' latest email campaign is struggling to attract new customers. \nHow can AI increase the company's customer email engagement?",
+        options: [
+            { letter: "A", text: "Create personalized emails" },
+            { letter: "B", text: "Resend emails to inactive recipients" },
+            { letter: "C", text: "Remove invalid email addresses" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q52",
+        isMultiple: false,
+        question: "How does data quality impact the trustworthiness of Al-driven decisions?",
+        options: [
+            { letter: "A", text: "The use of both low-quality and high-quality data can improve the accuracy and reliability of AI-driven decisions." },
+            { letter: "B", text: "High-quality data improves the reliability and credibility of Al-driven decisions, fostering trust among users." },
+            { letter: "C", text: "Low-quality data reduces the risk of overfitting the model, improving the trustworthiness of the predictions." }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q53",
+        isMultiple: false,
+        question: "Cloud Kicks wants to implement AI features on its 5aiesforce Platform but has concerns about potential ethical and privacy challenges. \nWhat should they consider doing to minimize potential AI bias?",
+        options: [
+            { letter: "A", text: "Integrate AI models that auto-correct biased data." },
+            { letter: "B", text: "Implement Salesforce's Trusted AI Principles." },
+            { letter: "C", text: "Use demographic data to identify minority groups." }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q54",
+        isMultiple: false,
+        question: "What is an example of ethical debt?",
+        options: [
+            { letter: "A", text: "Violating a data privacy law and falling to pay fines" },
+            { letter: "B", text: "Launching an AI feature after discovering a harmful bia" },
+            { letter: "C", text: "Delaying an AI product launch to retrain an AI data model" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q55",
+        isMultiple: false,
+        question: "How does AI which CRM help sales representatives better understand previous customer interactions?",
+        options: [
+            { letter: "A", text: "Creates, localizes, and translates product descriptions" },
+            { letter: "B", text: "Triggers personalized service replies" },
+            { letter: "C", text: "Provides call summaries" }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q56",
+        isMultiple: false,
+        question: "Cloud Kicks discovered multiple variations of state and country values in contact records. \nWhich data quality dimension is affected by this issue?",
+        options: [
+            { letter: "A", text: "Usage" },
+            { letter: "B", text: "Accuracy" },
+            { letter: "C", text: "Consistency" }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q57",
+        isMultiple: false,
+        question: "What is a Key consideration regarding data quality in AI implementation?",
+        options: [
+            { letter: "A", text: "Techniques from customizing AI features in Salesforce" },
+            { letter: "B", text: "Data's role in training and fine-tuning Salesforce AI models" },
+            { letter: "C", text: "Integration process of AI models with Salesforce workflows" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q58",
+        isMultiple: false,
+        question: "What is the main focus of the Accountability principle in Salesforce's Trusted AI Principles?",
+        options: [
+            { letter: "A", text: "Safeguarding fundamental human rights and protecting sensitive data" },
+            { letter: "B", text: "Taking responsibility for one's actions toward customers, partners, and society" },
+            { letter: "C", text: "Ensuring transparency In Al-driven recommendations and predictions" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q59",
+        isMultiple: false,
+        question: "A sales manager wants to improve their processes using AI in Salesforce? Which application of AI would be most beneficial?",
+        options: [
+            { letter: "A", text: "Lead soring and opportunity forecasting" },
+            { letter: "B", text: "Sales dashboards and reporting" },
+            { letter: "C", text: "Data modeling and management" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q60",
+        isMultiple: false,
+        question: "What Is a benefit of data quality and transparency as it pertains to bias in generated AI?",
+        options: [
+            { letter: "A", text: "Chances of bIas and mitigated" },
+            { letter: "B", text: "Chances of bias are aggravated" },
+            { letter: "C", text: "Chances of bias are remove" }
+        ],
+        answer: "A"
+    },
 ];
