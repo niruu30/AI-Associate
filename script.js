@@ -145,13 +145,13 @@ const quizData = [
     {
         id: "q14",
         isMultiple: false,
-        question: "A sales manager wants to use AI to help sales representatives log their calls quicker and more accurately. Which functionality provides the best solution?",
+        question: "Cloud Kicks is testing a new AI model. \nWhich approach aligns with Salesforce's Trusted AI Principle of Incluslvity?",
         options: [
-            { letter: "A", text: "Call Summaries" },
-            { letter: "B", text: "Sales Dialer" },
-            { letter: "C", text: "Auto-Generated Sales Tasks" }
+            { letter: "A", text: "Test only with data from a specific region or demographic to limit the risk of data leaks." },
+            { letter: "B", text: "Rely on a development team with uniform backgrounds to assess the potential societal implications of the model." },
+            { letter: "C", text: "Test with diverse and representative datasets appropriate for how the model will be used." }
         ],
-        answer: "A"
+        answer: "C"
     },
     {
         id: "q15",
@@ -360,12 +360,12 @@ const quizData = [
             { letter: "B", text: "AI that creates new content" },
             { letter: "C", text: "A data model used in Salesforce" }
         ],
-        answer: "C"
+        answer: "A"
     },
     {
         id: "q34",
         isMultiple: false,
-        question: "Which type of bias imposes a system 's values on others?",
+        question: "Which type of bias imposes a system's values on others?",
         options: [
             { letter: "A", text: "Association" },
             { letter: "B", text: "Automation" },
@@ -574,7 +574,7 @@ const quizData = [
     {
         id: "q53",
         isMultiple: false,
-        question: "Cloud Kicks wants to implement AI features on its 5aiesforce Platform but has concerns about potential ethical and privacy challenges. \nWhat should they consider doing to minimize potential AI bias?",
+        question: "Cloud Kicks wants to implement AI features on its Salesforce Platform but has concerns about potential ethical and privacy challenges. \nWhat should they consider doing to minimize potential AI bias?",
         options: [
             { letter: "A", text: "Integrate AI models that auto-correct biased data." },
             { letter: "B", text: "Implement Salesforce's Trusted AI Principles." },
