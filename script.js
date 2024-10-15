@@ -15,7 +15,7 @@ const quizData = [
         isMultiple: false,
         question: "A developer is tasked with selecting a suitable dataset for training an AI model in Salesforce to accurately predict current customer behavior. \nWhat Is a crucial factor that the developer should consider during selection?",
         options: [
-            { letter: "A", text: "Number of variables ipn the dataset" },
+            { letter: "A", text: "Number of variables in the dataset" },
             { letter: "B", text: "Size of the dataset" },
             { letter: "C", text: "Age of the dataset" }
         ],
@@ -182,7 +182,7 @@ const quizData = [
         options: [
             { letter: "A", text: "Ethical AI Prediction Maturity Model" },
             { letter: "B", text: "Ethical AI Process Maturity Model" },
-            { letter: "C", text: "Ethical AI practice Maturity Model" }
+            { letter: "C", text: "Ethical AI Practice Maturity Model" }
         ],
         answer: "B"
     },
@@ -389,7 +389,7 @@ const quizData = [
         isMultiple: false,
         question: "Which best describes the difference between predictive AI and generative Al?",
         options: [
-            { letter: "A", text: "Predictive AT uses machine learning to classify or predict outputs from its input data whereas generative Al does not use machine learning to generate its output." },
+            { letter: "A", text: "Predictive AI uses machine learning to classify or predict outputs from its input data whereas generative Al does not use machine learning to generate its output." },
             { letter: "B", text: "Predictive Al uses machine learning to classify or predict outputs from its input data whereas generative Al uses machine learning to generate new and original output for 4 given input" },
             { letter: "C", text: "Predictive Al and generative Al have the same capabilities but differ in the type of input they receive; predictive AT receives raw data whereas generative AT receives natural language." }
         ],
@@ -588,7 +588,7 @@ const quizData = [
         question: "What is an example of ethical debt?",
         options: [
             { letter: "A", text: "Violating a data privacy law and falling to pay fines" },
-            { letter: "B", text: "Launching an AI feature after discovering a harmful bia" },
+            { letter: "B", text: "Launching an AI feature after discovering a harmful bias" },
             { letter: "C", text: "Delaying an AI product launch to retrain an AI data model" }
         ],
         answer: "B"
@@ -596,11 +596,11 @@ const quizData = [
     {
         id: "q55",
         isMultiple: false,
-        question: "How does AI which CRM help sales representatives better understand previous customer interactions?",
+        question: "What is the most likely impact that high-quality data will have on customer relationships?",
         options: [
-            { letter: "A", text: "Creates, localizes, and translates product descriptions" },
-            { letter: "B", text: "Triggers personalized service replies" },
-            { letter: "C", text: "Provides call summaries" }
+            { letter: "A", text: "Increased brand loyalty" },
+            { letter: "B", text: "Higher customer acquisition costs" },
+            { letter: "C", text: "Improved customer trust and satisfaction" }
         ],
         answer: "C"
     },
@@ -642,7 +642,7 @@ const quizData = [
         isMultiple: false,
         question: "A sales manager wants to improve their processes using AI in Salesforce? Which application of AI would be most beneficial?",
         options: [
-            { letter: "A", text: "Lead soring and opportunity forecasting" },
+            { letter: "A", text: "Lead scoring and opportunity forecasting" },
             { letter: "B", text: "Sales dashboards and reporting" },
             { letter: "C", text: "Data modeling and management" }
         ],
@@ -651,9 +651,9 @@ const quizData = [
     {
         id: "q60",
         isMultiple: false,
-        question: "What Is a benefit of data quality and transparency as it pertains to bias in generated AI?",
+        question: "What is a benefit of data quality and transparency as it pertains to bias in generated AI?",
         options: [
-            { letter: "A", text: "Chances of bIas and mitigated" },
+            { letter: "A", text: "Chances of bias and mitigated" },
             { letter: "B", text: "Chances of bias are aggravated" },
             { letter: "C", text: "Chances of bias are remove" }
         ],
