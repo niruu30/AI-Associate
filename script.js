@@ -145,7 +145,7 @@ const quizData = [
     {
         id: "q14",
         isMultiple: false,
-        question: "Cloud Kicks is testing a new AI model. \nWhich approach aligns with Salesforce's Trusted AI Principle of Incluslvity?",
+        question: "Cloud Kicks is testing a new AI model. \nWhich approach aligns with Salesforce's Trusted AI Principle of Inclusivity?",
         options: [
             { letter: "A", text: "Test only with data from a specific region or demographic to limit the risk of data leaks." },
             { letter: "B", text: "Rely on a development team with uniform backgrounds to assess the potential societal implications of the model." },
@@ -202,7 +202,7 @@ const quizData = [
         isMultiple: false,
         question: "Which best describes the different between predictive AI and generative AI?",
         options: [
-            { letter: "A", text: "Predictive new and original output for a given input." },
+            { letter: "A", text: "Predictive AI uses machine learning to classify or predict outputs from its input data whereas generative AI uses machine learning to generate new and original output for a given input." },
             { letter: "B", text: "Predictive AI and generative have the same capabilities differ in the type of input they receive: predictive AI receives raw data whereas generation AI receives natural language." },
             { letter: "C", text: "Predictive AI uses machine learning to classes or predict output from its input data whereas generative AI does not use machine learning to generate its output." }
         ],
@@ -354,13 +354,13 @@ const quizData = [
     {
         id: "q33",
         isMultiple: false,
-        question: "What is machine learning?",
+        question: "Cloud Kicks wants to optimize its business operations by incorporating AI into its CRM. \nWhat should the company do first to prepare its data for use with AI?",
         options: [
-            { letter: "A", text: "AI that can grow its intelligence" },
-            { letter: "B", text: "AI that creates new content" },
-            { letter: "C", text: "A data model used in Salesforce" }
+            { letter: "A", text: "Remove biased data." },
+            { letter: "B", text: "Determine data availability." },
+            { letter: "C", text: "Determine data outcomes." }
         ],
-        answer: "A"
+        answer: "B"
     },
     {
         id: "q34",
@@ -486,11 +486,11 @@ const quizData = [
     {
         id: "q45",
         isMultiple: false,
-        question: "A sales manager wants to use AI to help sales representatives log their calls quicker and more accurately. \nWhich functionality provides the best solution?",
+        question: "What is an implication of user consent in regard to AI data privacy?",
         options: [
-            { letter: "A", text: "Sales Dialer" },
-            { letter: "B", text: "Call Summaries" },
-            { letter: "C", text: "Auto-Generated Sales Tasks" }
+            { letter: "A", text: "AI ensures complete data privacy by automatically obtaining user consent." },
+            { letter: "B", text: "AI infringes on privacy when user consent is not obtained." },
+            { letter: "C", text: "AI operates Independently of user privacy and consent." }
         ],
         answer: "B"
     },
