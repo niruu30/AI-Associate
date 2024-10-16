@@ -52,7 +52,7 @@ const quizData = [
             { letter: "B", text: "Volume" },
             { letter: "C", text: "Age" }
         ],
-        answer: "A"
+        answer: "C"
     },
     {
         id: "q6",
@@ -173,7 +173,7 @@ const quizData = [
             { letter: "B", text: "Flag sensitive variables and their proxies to prevent discriminatory lending practices." },
             { letter: "C", text: "Incorporate customer feedback into the model's continuous training." }
         ],
-        answer: "B"
+        answer: "A"
     },
     {
         id: "q17",
@@ -244,7 +244,7 @@ const quizData = [
     {
         id: "q23",
         isMultiple: false,
-        question: "Which data does Salesforce automatically exclude from marketing Cloud Einstein engagement model training to mitigate bias and ethic...",
+        question: "Which data does Salesforce automatically exclude from marketing Cloud Einstein engagement model training to mitigate bias and ethical risks",
         options: [
             { letter: "A", text: "Geographic" },
             { letter: "B", text: "Demographic" },
@@ -503,7 +503,7 @@ const quizData = [
             { letter: "B", text: "Data Backup" },
             { letter: "C", text: "Color Coding" }
         ],
-        answer: "B"
+        answer: "C"
     },
     {
         id: "q47",
@@ -658,5 +658,225 @@ const quizData = [
             { letter: "C", text: "Chances of bias are remove" }
         ],
         answer: "A"
+    },
+    {
+        id: "q61",
+        isMultiple: false,
+        question: "Which field of AI is most suitable for this scenario?",
+        options: [
+            { letter: "A", text: "Natural language processing" },
+            { letter: "B", text: "Computer vision" },
+            { letter: "C", text: "Predictive analytics" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q62",
+        isMultiple: false,
+        question: "Which type of bias results from data being labeled according to stereotypes?",
+        options: [
+            { letter: "A", text: "Association" },
+            { letter: "B", text: "Societal" },
+            { letter: "C", text: "Interaction" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q63",
+        isMultiple: false,
+        question: "To avoid introducing unintended bias to an AI model, which type of data should be omitted?",
+        options: [
+            { letter: "A", text: "Transactional" },
+            { letter: "B", text: "Engagement" },
+            { letter: "C", text: "Demographic" }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q64",
+        isMultiple: false,
+        question: "Cloud Kicks wants to ensure that multiple records for the same customer are removed in Salesforce. \nWhich feature should be used to accomplish this?",
+        options: [
+            { letter: "A", text: "Duplicate management" },
+            { letter: "B", text: "Trigger deletion of old records" },
+            { letter: "C", text: "Standardized field names" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q65",
+        isMultiple: false,
+        question: "Cloud Kicks learns of complaints from customers who are receiving too many sales calls and emails. \nWhich data quality dimension should be assessed to reduce these communication Inefficiencies? ",
+        options: [
+            { letter: "A", text: "Duplication" },
+            { letter: "B", text: "Usage" },
+            { letter: "C", text: "Consent" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q66",
+        isMultiple: false,
+        question: " A data quality expert at Cloud Kicks want to ensure that each new contact contains at least an email address. \nWhich feature should they use to accomplish this? ",
+        options: [
+            { letter: "A", text: "Autofill" },
+            { letter: "B", text: "Duplicate matching rule" },
+            { letter: "C", text: "Validation rule " }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q67",
+        isMultiple: false,
+        question: "What are the key components of the data quality standard?",
+        options: [
+            { letter: "A", text: "Naming, formatting, Monitoring" },
+            { letter: "B", text: "Accuracy, Completeness, Consistency" },
+            { letter: "C", text: "Reviewing, Updating, Archiving" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q68",
+        isMultiple: false,
+        question: "A marketing manager wants to use AI to better engage their customers. Which functionality provides the best solution? ",
+        options: [
+            { letter: "A", text: "Journey Optimization" },
+            { letter: "B", text: "Bring Your Own Model" },
+            { letter: "C", text: "Einstein Engagement" }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q69",
+        isMultiple: false,
+        question: "What is the key difference between generative and predictive AI?",
+        options: [
+            { letter: "A", text: "Generative AI creates new content based on existing data and predictive AI analyzes existing data." },
+            { letter: "B", text: "Generative AI finds content similar to existing data and predictive AI analyzes existing data." },
+            { letter: "C", text: "Generative AI analyzes existing data and predictive AI creates new content based on existing data." }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q70",
+        isMultiple: false,
+        question: "What are some key benefits of AI in improving customer experiences in CRM?",
+        options: [
+            { letter: "A", text: "Improves CRM security protocols, safeguarding sensitive customer data from potential breaches and threats" },
+            { letter: "B", text: "Fully automates the customer service experience, ensuring seamless automated interactions with customers" },
+            { letter: "C", text: "Streamlines case management by categorizing and tracking customer support cases, identifying topics, and summarizing case resolutions" }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q71",
+        isMultiple: false,
+        question: "What is the role of data quality in achieving AI business Objectives?",
+        options: [
+            { letter: "A", text: "Data quality is important for maintain Ai data storage limits." },
+            { letter: "B", text: "Data quality is required to create accurate AI data insights." },
+            { letter: "C", text: "Data quality is unnecessary because AI can work with all data types." }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q72",
+        isMultiple: false,
+        question: "A healthcare company implements an algorithm to analyze patient data and assist in medical diagnosis. \nWhich primary role does data Quality play in this AI application?",
+        options: [
+            { letter: "A", text: "Ensured compatibility of AI algorithms with the system's Infrastructure" },
+            { letter: "B", text: "Reduced need for healthcare expertise in interpreting AI outputs" },
+            { letter: "C", text: "Enhanced accuracy and reliability of medical predictions and diagnoses" }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q73",
+        isMultiple: false,
+        question: "In the context of Salesforce's Trusted AI Principles, what does the principle of Empowerment primarily aim to achieve?",
+        options: [
+            { letter: "A", text: "Empower users of all skill levels to build AI applications with clicks, not code." },
+            { letter: "B", text: "Empower users to solve challenging technical problems using neural networks." },
+            { letter: "C", text: "Empower users to contribute to the growing body of knowledge of leading AI research." }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q74",
+        isMultiple: false,
+        question: "What is a key challenge of human-AI collaboration in decision-making?",
+        options: [
+            { letter: "A", text: "Leads to more informed and balanced decision-making." },
+            { letter: "B", text: "Creates a reliance on AI, potentially leading to less critical thinking and oversight." },
+            { letter: "C", text: "Reduces the need for human involvement in decision-making processes." }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q75",
+        isMultiple: false,
+        question: "What can bias in AI algorithms in CRM lead to?",
+        options: [
+            { letter: "A", text: "Ethical challenges in CRM systems " },
+            { letter: "B", text: "Advertising cost increases" },
+            { letter: "C", text: "Personalization and targeted marketing changes" }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q76",
+        isMultiple: false,
+        question: "In the context of Salesforce's Trusted AI Principles what does the principle of Empowerment primarily aim to achieve?",
+        options: [
+            { letter: "A", text: "Empower users to off all skill level to build AI application with clicks, not code." },
+            { letter: "B", text: "Empower users to contribute to the growing body of knowledge of leading AI research." },
+            { letter: "C", text: "Empower users to solve challenging technical problems using neural networks." }
+        ],
+        answer: "A"
+    },
+    {
+        id: "q77",
+        isMultiple: false,
+        question: "An administrator at Cloud Kicks wants to ensure that a field is set up on the customer record so their preferred name can be captured. \nWhich Salesforce field type should the administrator use to accomplish this?",
+        options: [
+            { letter: "A", text: "Multi-Select Picklist" },
+            { letter: "B", text: "Text" },
+            { letter: "C", text: "Rich Text Area" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q78",
+        isMultiple: false,
+        question: "What are the potential consequences of an organization suffering from poor data quality?",
+        options: [
+            { letter: "A", text: "Low employee morale, stock devaluation, and inability to attract top talent"},
+            { letter: "B", text: "Revenue loss, poor customer service, and reputational damage"},
+            { letter: "C", text: "Technical debt, monolithic system architecture, and slow ETL throughout" }
+        ],
+        answer: "B"
+    },
+    {
+        id: "q79",
+        isMultiple: false,
+        question: "How does a data quality assessment impact business outcome for companies using AI?",
+        options: [
+            { letter: "A", text: "Improves the speed of AI recommendations" },
+            { letter: "B", text: "Accelerates the delivery of new AI solutions" },
+            { letter: "C", text: "Provides a benchmark for AI predictions" }
+        ],
+        answer: "C"
+    },
+    {
+        id: "q80",
+        isMultiple: false,
+        question: "Cloud Kicks plans to use automated chat as its primary support channel. \nWhich Einstein feature should they use?",
+        options: [
+            { letter: "A", text: "Discovery" },
+            { letter: "B", text: "Bots" },
+            { letter: "C", text: "Next Best Action" }
+        ],
+        answer: "B"
     },
 ];
