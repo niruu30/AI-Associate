@@ -371,7 +371,7 @@ const quizData = [
             { letter: "B", text: "Automation" },
             { letter: "C", text: "Societal" }
         ],
-        answer: "B"
+        answer: "C"
     },
     {
         id: "q35",
@@ -503,7 +503,7 @@ const quizData = [
             { letter: "B", text: "Data Backup" },
             { letter: "C", text: "Color Coding" }
         ],
-        answer: "C"
+        answer: "A"
     },
     {
         id: "q47",
@@ -774,7 +774,7 @@ const quizData = [
         isMultiple: false,
         question: "What is the role of data quality in achieving AI business Objectives?",
         options: [
-            { letter: "A", text: "Data quality is important for maintain Ai data storage limits." },
+            { letter: "A", text: "Data quality is important for maintain  data storage limits." },
             { letter: "B", text: "Data quality is required to create accurate AI data insights." },
             { letter: "C", text: "Data quality is unnecessary because AI can work with all data types." }
         ],
