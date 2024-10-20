@@ -371,7 +371,7 @@ const quizData = [
             { letter: "B", text: "Automation" },
             { letter: "C", text: "Societal" }
         ],
-        answer: "C"
+        answer: "B"
     },
     {
         id: "q35",
