@@ -445,8 +445,7 @@ const quizData = [
         options: [
             { letter: "A", text: "Neural networks" },
             { letter: "B", text: "Predictive Analytics" },
-            { letter: "C", text: "Rules- based systems" },
-            { letter: "D", text: "Mark this item for later review," }
+            { letter: "C", text: "Rules- based systems" }
         ],
         answer: "A"
     },
